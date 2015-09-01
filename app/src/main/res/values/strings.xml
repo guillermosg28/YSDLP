@@ -1,3 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">YSDLP</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <string name="home_item">Inicio</string>
+    <string name="favorito_item">Favoritos</string>
+    <string name="chat_item">Chat</string>
+    <string name="faq_item">F.A.Q</string>
+    <string name="settings_item">Configuracion</string>
+
 </resources>
