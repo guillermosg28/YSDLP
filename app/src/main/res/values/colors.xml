@@ -5,6 +5,17 @@
     <color name="window_background">#FFF5F5F5</color>
     <color name="ToolbarprimaryColor">#009688</color>
     <color name="primaryDarkColor">#009688</color>
-    <color name="navDrawerAccentColor">#00796B</color>
+    <color name="navDrawerAccentColor">#FFFFFF</color> <!-- BARRA DE NAVEGACION -->
+
+
+
+
+    <!--
+    <color name="window_background">#EEEEEE</color>
+    <color name="primaryDarkColor">#689F38</color>
+    -->
+
+    <color name="primaryColor">#8BC34A</color>
+    <color name="accentColor">#FAD317</color>
 
 </resources>

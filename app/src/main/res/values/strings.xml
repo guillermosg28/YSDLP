@@ -13,4 +13,9 @@
     <string name="faq_item">F.A.Q</string>
     <string name="settings_item">Configuracion</string>
 
+    <!-- MENU TAB -->
+    <string name="title_section1">Noticias</string>
+    <string name="title_section2">Eventos</string>
+    <string name="title_section3">Recuerdame</string>
+
 </resources>
