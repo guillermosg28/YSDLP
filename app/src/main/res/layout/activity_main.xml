@@ -16,7 +16,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <com.teamtreehouse.ysdlp.SlidingTabLayout
+        <ysdlp.zizehost.com.ysdlp.SlidingTabLayout
             android:id="@+id/sliding_tabs"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -31,11 +31,6 @@
             android:layout_height="0px"
             android:layout_weight="0.81"
             android:background="@android:color/white" />
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/logo"/>
 
     </LinearLayout>
 
