@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_cronograma"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="Cronograma" />
+
+        <item
+            android:id="@+id/nav_guias"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Guias" />
+
+        <item
+            android:id="@+id/nav_horario"
+            android:icon="@drawable/ic_alarm_black_24dp"
+            android:title="Mi horario" />
+
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/menu_cachimbo"
+            android:title="Cachimbos">
+            <menu>
+                <item
+                    android:id="@+id/nav_c_cronograma"
+                    android:icon="@drawable/ic_event_black_24dp"
+                    android:title="Cronograma" />
+                <item
+                    android:id="@+id/nav_examen_medico"
+                    android:icon="@drawable/ic_tag_faces_black_24dp"
+                    android:title="Examenes Medicos" />
+            </menu>
+        </item>
+
+
+        <!-- Sección de configuración -->
+        <item
+            android:id="@+id/configuration_section"
+            android:title="@string/settings_item">
+            <menu>
+                <item
+                    android:id="@+id/nav_faq"
+                    android:icon="@drawable/ic_help_black_24dp"
+                    android:title="@string/faq_item" />
+                <item
+                    android:id="@+id/nav_log_out"
+                    android:icon="@drawable/ic_build_black_24dp"
+                    android:title="@string/settings_item" />
+            </menu>
+        </item>
+    </group>
+</menu>
